@@ -1,0 +1,341 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--meta-->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="Html, Css, Javascript, React">
+    <meta name="description" content="Portafolio de Desarrolodor de web de Faab tech">
+
+    <!--Titulo-->
+    <title>Faab Music | Stan Faab</title>
+    <link rel="icon" href="Image/Logopit_1695484312379.ico">
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Alice&family=Titan+One&display=swap" rel="stylesheet">
+
+    <!--boostrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+
+    <!--css-->
+    <link rel="stylesheet" href="Hoja de estilo/style.css">
+  </head>
+  
+  <body>
+    <!-- MENU START  -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <!-- NAV CONTAINER START -->
+      <div class="container-fluid">
+        <a href="index.html" class="navbar-brand text-info fw-semibold fs-4">
+          <img src="Image/IMG_20231012_132327_(400_x_100_píxel).png" alt="Logo Faab Tech" width="125px">
+        </a>
+
+        <!-- NAV BUTTON  -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#menuLateral"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- OFFCANVAS MAIN CONTAINER START -->
+        <section
+          class="offcanvas offcanvas-start"
+          id="menuLateral"
+          tabindex="-1"
+        >
+          <div class="offcanvas-header" data-bs-theme="light">
+            <a href="" class="offcanvas-title text-info">
+              <img src="Image/IMG_20231012_132327_(400_x_100_píxel).png" alt="" width="120px">
+            </a>
+            <button
+              class="btn-close"
+              type="button"
+              aria-label="Close"
+              data-bs-dismiss="offcanvas"
+            ></button>
+          </div>
+          <!-- OFF CANVAS MENU LINKS  START-->
+          <div
+            class=" offcanvas-body d-flex flex-column justify-content-around px-0"
+          >
+            <ul class="navbar-nav fs-5 justify-content-center">
+              <li class="nav-item p-3 py-md-1">
+                <a href="#music" class="nav-link">Music</a>
+              </li>
+              <li class="nav-item p-3 py-md-1">
+                <a href="#video" class="nav-link">Video</a>
+              </li>
+              <li class="nav-item p-3 py-md-1">
+                <a href="#servicio" class="nav-link">Servicios</a>
+              </li>
+              <li class="nav-item p-3 py-md-1">
+                <a href="#contacto" class="nav-link">Contacto</a>
+              </li>
+            </ul>
+            <!-- enlaces redes sociales -->
+
+            <div class="d-lg-none align-self-center py-3">
+              <a href="#"><i class="bi bi-twitter px-2 text-info fs-2"></i></a>
+              <a href="#"><i class="bi bi-facebook px-2 text-info fs-2"></i></a>
+              <a href="#"><i class="bi bi-github px-2 text-info fs-2"></i></a>
+              <a href="https://wa.me/950740155" target="_blank"><i class="bi bi-whatsapp px-2 text-info fs-2"></i></a>
+            </div>
+          </div>
+        </section>
+        <!-- OFFCANVAS MAIN CONTAINER END  -->
+      </div>
+    </nav>
+
+    <!-- carrusel video-->
+    <section class="video-slide hero d-flex align-items-center container">
+     
+
+
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VLL_HLe4U70?si=pHib1rctR-hnn3qo&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
+          </div>
+          <div class="carousel-item">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/r2hUbhoBtyY?si=K5cYugijskzAujxV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
+          </div>
+          <div class="carousel-item">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/y_Nh_uyJYIk?si=C2WToSS9FpYwBiE9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  </section>
+
+  <section>
+    <div class="hero-faab-music container align-items-center justify-content-center">
+    <h1>Stan Faab</h1>
+    <h3 class="bio">Stanley Saint Fabre better known as Stan Faab,  is a rapper, singer, songwriter and producer of Haitian origin.  His music style is generally defined as afro trap and drill, but he has also played other genres like dancehall, kizomba etc.…</h3>
+    <a href="https://g.co/kgs/PDMFQi" target="_blank"><button type="button" class="btn btn-primary">Saber Más</button></a>
+
+  </section>
+    
+  <!-- musica -->
+  <section class="music" id="music">
+    <h2>MÚsica</h2>
+    <p class="bio">Mí Último Álbum</p>
+    <div>
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/5u7bCV3YtteITXzFZ23UW0?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+  </section>
+  
+  <section class="music">
+    
+    
+    <p class="bio">Mis Últimas Canciones</p>
+    
+     <div class="container">
+    
+      <div class="row">
+        <div class="columna col-12 col-md-6 col-lg-4">
+          <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0uyNueGFhorDvmMH9NDBYm?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </div>
+
+  <div class="columna col-12 col-md-6 col-lg-4 ">
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/2sJ27Mti2EXtkTzPiIU56i?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
+    
+    <div class="columna col-12 col-md-6 col-lg-4 ">
+      <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6yS57JXnxhu60QvEy7G3xz?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </div>
+  
+  <div class="columna col-12 col-md-6 col-lg-4 ">
+  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/32hpZu92WQrZF631YEkBzP?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</div>
+
+<div class="columna col-12 col-md-6 col-lg-4 ">
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3un2snNG360hSIhXIq9uG0?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</div>
+
+<div class="columna col-12 col-md-6 col-lg-4 ">
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/47sOZsRFoNQixqbop7ukEu?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</div>
+  </div>
+</div>
+
+
+</section>
+
+<!-- video -->
+
+<section class="music" id="video">
+    
+    <h2>Video</h2>
+  <p class="bio">Mis Últimos Videos</p>
+  
+   <div class="container">
+  
+    <div class="row">
+      <div class="columna col-12 col-md-8 col-lg-6">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VLL_HLe4U70?si=VfiMgoek9CzInrNi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+
+<div class="columna col-12 col-md-8 col-lg-6 ">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/r2hUbhoBtyY?si=Ti4ZKQXn_i45PJ7d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+  
+  <div class="columna col-12 col-md-8 col-lg-6 ">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/683nUDvR6TU?si=0rXlmYdhNoi_UAbe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<div class="columna col-12 col-md-8 col-lg-6 ">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/FsCtsUENnDw?si=00SqopyWKLE5oJbZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<div class="columna col-12 col-md-8 col-lg-6 ">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/9YZbSuL8XiU?si=6U-l3yVll6-GOib2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<div class="columna col-12 col-md-8 col-lg-6 ">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/pTo5ePutCEU?si=V5yHddsbUjJ0-s2r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+
+
+</section>
+
+<!-- servicios -->
+<section class="servicio" id="servicio">
+<h2>Servicios</h2>
+<p class="bio">Mezcla y Masterización</p>
+<div class="card mb-3 container" style="max-width: 1000px;">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="Image/studio.jpg" class="img-fluid rounded-start" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Producción Musical</h5>
+        <p class="card-text">Quieres que tus canciones suenan profesionales como todos los que están pegados ahora, no lo piensas dos veces, deja tu próximo hit en nuestras manos.</p>
+        <p>Tu éxito esperando por tí en Faab Music!</p>
+        <a href="https://wa.me/950740155" target="_blank"><button type="button" class="btn btn-primary">Cotiza Con Nosotros</button></a>
+       
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="servicio servicio-video" id="servicio">
+  
+  <p class="bio">Edición de Video</p>
+  <div class="card mb-3 container" style="max-width: 1000px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="Image/video.jpg" class="img-fluid rounded-start" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Producción de Video</h5>
+          <p class="card-text">Ofrecemos servicio de edición de video, todo tipo de video: Musical, Corporativo, Publicidad, en Faab Music trabajamos con pasión y amor.</p>
+          <p>Tu éxito esperando por tí en Faab Music!</p>
+          <a href="https://wa.me/950740155" target="_blank"><button type="button" class="btn btn-primary">Cotiza Con Nosotros</button></a>
+         
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+   <!-- Contacto -->
+   <section id="contacto" class="contacto seccion-oscura">
+    <div class="container">
+      <div class="container text-center rectangulo d-flex justify-content-evenly">
+        <div class="row">
+          <div class="col-12 col-md-4 seccion-titulo">
+            ¡Hablemos!
+          </div>
+          <div class="col-12 col-md-4 descripcion">
+            Contáctanos para iniciar tu proyecto y llevar tus canciones al siguiente nivel.
+          </div>
+          <div class="col-12 col-md-4">
+            <a href="mailto:contactfaabtech@gmail.com">
+              <button type="button">  
+                Contacto
+                <i class="bi bi-envelope-check-fill"></i>
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="Image/Logopit_1695484312379.ico" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Aprendemos y creemos todos los días.<br>Creemos un proyecto juntos!</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://www.youtube.com/results?search_query=stan+faab" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-youtube"></i>
+        </a>
+        <a href="#" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="#" rel="noopener noreferrer">
+          <i class="bi bi-tiktok"></i>
+        </a>
+        <a href="#" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="#"  rel="noopener noreferrer">
+          <i class="bi bi-facebook"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Faab Tech (2023) &#169;</div>
+    </footer>
+
+    
+    
+    <div class="loading-page">
+      <img src="Image/3dgifmaker07996.gif" alt="">
+
+      <div class="name-container">
+          <div class="logo-name"></div>
+      </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"
+    integrity="sha512-gmwBmiTVER57N3jYS3LinA9eb8aHrJua5iQD7yqYCKa5x6Jjc7VDVaEA0je0Lu0bP9j7tEjV3+1qUm6loO99Kw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./script.js"></script>
+
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
